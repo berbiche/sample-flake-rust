@@ -1,0 +1,15 @@
+[package]
+name = "sample-flake-rust"
+version = "0.1.0"
+authors = ["Nicolas Berbiche <nic.berbiche@gmail.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+gtk = "0.9.0"
+gio = ""
+glib = ""
+
+[features]
+gtk_3_24 = [ "gtk/v3_24", "gio/v2_58", "glib/v2_58" ]
+
