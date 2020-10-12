@@ -4,7 +4,7 @@ This is a stub repository to develop using Rust, nix and Flakes.
 
 This is aimed to people with basic knowledge of Flakes and moderate knowledge of Nix.
 See the [NixOS Wiki](https://nixos.wiki/wiki/Flakes) for more information about Flakes.
-The relevant sections are `Basic project usage`, `Flake schema`
+The relevant sections are `Basic project usage` and `Flake schema`.
 
 ## Getting started
 
@@ -12,7 +12,7 @@ The relevant sections are `Basic project usage`, `Flake schema`
 provided on the project page.  
   **Important**: you can skip this step if you do not intend to use direnv as it's optional.
 
-  `direnv` is a tool that setups your shell with the required environment variables (and tools in
+    `direnv` is a tool that setups your shell with the required environment variables (and tools in
   the case of Nix) to hack on!
 
 2. Clone the project
